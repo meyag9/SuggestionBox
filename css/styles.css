@@ -1,7 +1,20 @@
 .vertical-text{
+  font-family: inherit;
   font-size: 4.5em;
-  font-weight: 700;
+  font-weight: 900;
   margin: 0;
-  padding: 0;
+  padding-top: 120px;
   text-align: center
+}
+
+.center-max{
+  padding-top: 30px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
