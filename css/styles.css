@@ -1,3 +1,7 @@
+body {
+    background-image: url("../img/main2.jpg")
+}
+
 .vertical-text{
   font-family: inherit;
   font-size: 4.5em;
