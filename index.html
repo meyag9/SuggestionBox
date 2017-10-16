@@ -20,15 +20,20 @@
     <h1>Suggestion Box</h1>
     <h3>Leave a suggestion on how we can improve our club</h3>
     <!--comment element-->
+
     <div class = "center-max">
-      <textarea class="form-control" rows="5" id="comment"></textarea>
+      <textarea id="mainText" class="form-control" rows="5"></textarea>
       <div class = "btn">
-        <a href="about" class="btn btn-dark btn-lg">Submit</a>
+        <button id="submitBtn" onclick="submitClick()" type="button" class="btn btn-default">Submit</button>
       </div>
     </div>
-  </div>
 
+  </div>
   </header>
-  <script src="js/scripts.js"></script>
+
+  <!-- include firebase script, and keys -->
+  <script src="https://www.gstatic.com/firebasejs/4.5.1/firebase.js"></script>
+  <script src="setup.js"></script>
+  <script src="js/index.js"></script>
   </body>
 </html>
